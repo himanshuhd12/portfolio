@@ -141,20 +141,23 @@ body {
     grid-template-columns: repeat(2 , 1fr);
     align-items: center;
     grid-area: 1.5rem;
+    
 }
 
 .about-img img{
-    padding-bottom: 20%;
-    max-width: 630px ;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
+    width: 49%;
+  margin-left: 77px;
+  margin-top: 92px;
+  border-radius: 100%;
 }
 .about-text h2{
     font-size: 60px;
 }
 .about-text h2 span {
      color: #0ef;
+}
+.btn{
+  margin-top: 40px;
 }
 
 
@@ -216,3 +219,22 @@ body {
   }
 }
 
+
+
+@media (max-width: 768px) {
+  .about {
+   display: flex;
+   flex-direction:  column;
+   MARGIN-LEFT: 40PX;
+  }
+  .about-img img {
+      margin-left: 25%;
+  }
+  .btn{
+    
+  
+ }
+ .about-me{
+    margin-left: 30%;
+ }
+}
