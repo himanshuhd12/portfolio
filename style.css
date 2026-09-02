@@ -147,7 +147,7 @@ body {
 .about-img img{
     width: 49%;
   margin-left: 77px;
-  margin-top: 92px;
+  margin-top: 80px;
   border-radius: 100%;
 }
 .about-text h2{
@@ -235,6 +235,6 @@ body {
   
  }
  .about-me{
-    margin-left: 30%;
+    /* margin-left: 30%; */
  }
 }
